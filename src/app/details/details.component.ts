@@ -5,8 +5,6 @@ import { HousingService } from '../housing.service';
 import { HousingLocation } from '../housing-location';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
-let clkCnt = 0
-
 @Component({
   selector: 'app-details',
   standalone: true,
